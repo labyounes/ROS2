@@ -10,7 +10,7 @@ public:
     this->declare_parameter("firstname", "Younes");
     this->declare_parameter("surname", "Labidi");
     this->declare_parameter("age", NULL);
-    this->declare_parameter("bachelor_course", "Project Engineering");
+    this->declare_parameter("bachelor_course", "Project Engineering"); //It's actually a master course 
     this->declare_parameter("publish_period_ms", 1000);
 
     publisher_ = this->create_publisher<ros2_person_exchange::msg::PersonInfo>(
