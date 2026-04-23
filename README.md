@@ -11,10 +11,10 @@ The project is implemented in **C++ using ROS2 (Jazzy)**.
 
 ## 📦 Package Structure
 
-
+```text
 ros2_ueb/
 ├── src/
-│ ├── person_talker.cpp
-│ └── person_listener.cpp
+│   ├── person_talker.cpp
+│   └── person_listener.cpp
 ├── CMakeLists.txt
 ├── package.xml
